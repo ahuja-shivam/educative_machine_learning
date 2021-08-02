@@ -19,7 +19,7 @@ print(repr(arr1[:, -1])) #print last element(column) of every row
 print(repr(arr[:, 1:])) #print except 1st element of each row 
 print(repr(arr[0, 1:])) #print except 1st element of first row only 
 
-#arg in arg max
+#arg min & arg max
 print(np.argmin(arr1)) #index of a flatten array
 
 print(repr(np.argmin(arr, axis=0))) #axis 0 means among columns 

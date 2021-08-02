@@ -18,3 +18,10 @@ print(repr(arr1[1:])) #print except 1st row
 print(repr(arr1[:, -1])) #print last element(column) of every row
 print(repr(arr[:, 1:])) #print except 1st element of each row 
 print(repr(arr[0, 1:])) #print except 1st element of first row only 
+
+#arg in arg max
+print(np.argmin(arr1)) #index of a flatten array
+
+print(repr(np.argmin(arr, axis=0))) #axis 0 means among columns 
+print(repr(np.argmin(arr, axis=1))) #axis 1 means among rows 
+print(repr(np.argmax(arr, axis=-1))) #axis = -1 means across last dimension, in this case -1 means 1, in case 3d, it will bw 2

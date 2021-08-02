@@ -35,7 +35,7 @@ print(repr(matrix1))
 matrix2 = np.transpose(reshaped2, axes=(1,2,0)) #here axis is defined to transpose a 3-d matrix
 print(repr(matrix2))
 
-#zeroes and ones
+#zeros and ones
 #matrix can intially be filled with values zero or one usning: -
 arr_z=np.zeros(16)
 arr_z = np.reshape(arr_z,(4,4))

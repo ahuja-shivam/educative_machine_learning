@@ -17,5 +17,7 @@ print(repr(df[0:2])) #this will slice the rows can use lables
 print('{}\n'.format(df.iloc[1])) #access single row by intiger
 print('{}\n'.format(df.loc['r1'])) #access single row by label 
 
+df.loc[['r1', 'r3'], 'c2'] = 0
+print('{}\n'.format(df))
 
 
